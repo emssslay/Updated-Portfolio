@@ -1,6 +1,6 @@
 .brand-logo{
     top: 26px;
-    left: 200px;
+    left: 250px;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 50px;
     overflow: auto;
@@ -44,7 +44,7 @@ a {
     color: #e5ebea;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
-    top: 63px;
+    top: 25px;
     padding: 20px;
     text-align: center;
 }
@@ -55,4 +55,9 @@ a {
 
 h2 {
     margin-top: -5px;
+}
+
+.about-me {
+    background-color: #dce2e1;
+    margin-bottom: -20px;
 }
