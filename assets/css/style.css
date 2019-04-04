@@ -1,0 +1,46 @@
+.brand-logo{
+    left: 120px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 50px;
+
+}
+
+.container {
+    color: #e5ebea;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+}
+
+.parallax {
+    background-color: #dce2e1;
+}
+
+.nav-wrapper, .page-footer {
+    background-color: #5ba1b0;
+    color: #e5ebea;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+}
+
+#carousel-section {
+    background-color: #5ba1b0;
+}
+
+.footer-copyright {
+    background-color: #5ba1b0;
+}
+
+a {
+    color: #e5ebea;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+}
+
+.card {
+    background-color: #5ba1b0;
+    color: #e5ebea;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    top: 63px;
+    padding: 20px;
+}
