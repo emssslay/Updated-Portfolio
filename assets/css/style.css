@@ -1,4 +1,4 @@
-.brand-logo{
+.brand-logo {
     top: 26px;
     left: 250px;
     font-family: 'Merriweather Sans', sans-serif;
@@ -18,11 +18,16 @@
     background-color: #dce2e1;
 }
 
-.nav-wrapper, .page-footer {
+.nav-wrapper,
+.page-footer {
     background-color: #5ba1b0;
     color: #e5ebea;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
+}
+
+.nav-wrapper {
+    position: fixed;
 }
 
 #carousel-section {
@@ -60,4 +65,117 @@ h2 {
 .about-me {
     background-color: #dce2e1;
     margin-bottom: -20px;
+}
+
+.selfie {
+    border-radius: 50%;
+    max-width: 13%;
+    max-height: 13%;
+    position: relative;
+    left: 460px;
+    top: 12px;
+}
+
+.repoLinks:hover {
+    color: #c7cdcc;
+}
+
+
+
+/* media queries  */
+
+@media only screen and (min-width: 0px) and (max-width: 380px) {
+    .selfie {
+        left: 260px;
+        top: 20px;
+        max-width: 20%;
+        max-height: 20%;
+    }
+    .brand-logo {
+        left: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 381px) and (max-width: 450px) {
+    .selfie {
+        left: 285px;
+        top: 18px;
+        max-width: 20%;
+        max-height: 20%;
+    }
+    .brand-logo {
+        left: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 502px) {
+    .selfie {
+        left: 320px;
+        top: 20px;
+        max-width: 17%;
+        max-height: 17%;
+    }
+    .brand-logo {
+        left: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 503px) and (max-width: 550px) {
+    .selfie {
+        left: 330px;
+        top: 20px;
+        max-width: 16%;
+        max-height: 16%;
+    }
+    .brand-logo {
+        left: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 700px) {
+    .selfie {
+        left: 400px;
+        top: 15px;
+        max-width: 14%;
+        max-height: 14%;
+    }
+    .brand-logo {
+        left: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 767px) {
+    .selfie {
+        left: 420px;
+        top: 15px;
+        max-width: 14%;
+        max-height: 14%;
+    }
+    .brand-logo {
+        left: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 800px) {
+    .selfie {
+        left: 450px;
+        top: 15px;
+        max-width: 14%;
+        max-height: 14%;
+    }
+    .brand-logo {
+        left: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 913px) {
+    .selfie {
+        left: 450px;
+        top: 15px;
+        max-width: 13%;
+        max-height: 13%;
+    }
+    .brand-logo {
+        left: 40% !important;
+    }
 }
