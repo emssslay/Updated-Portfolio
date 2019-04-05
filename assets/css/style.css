@@ -84,6 +84,35 @@ h2 {
 
 /* media queries  */
 
+@media only screen and (min-width: 0px) and (max-width: 420) {
+    .carousel, .carousel-item>img {
+        height: 200px;
+    }
+    .carousel-item {
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 471px) {
+    .carousel, .carousel-item>img {
+        height: 200px;
+    }
+    .carousel-item {
+        padding: 0px 30px;
+    }
+}
+
+@media only screen and (min-width: 471px) and (max-width: 500px) {
+    .carousel, .carousel-item>img {
+        height: 200px;
+    }
+    .carousel-item {
+        padding: 0px 45px;
+    }
+}
+
+
+
 @media only screen and (min-width: 0px) and (max-width: 380px) {
     .selfie {
         left: 260px;
