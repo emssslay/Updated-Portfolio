@@ -50,7 +50,7 @@ a {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
     top: 25px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -80,6 +80,26 @@ h2 {
     color: #c7cdcc;
 }
 
+.parallax-container {
+    height: 170px;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    color: #5ba1b0;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.contact-head {
+    font-size: 30px
+}
+
+.fa-github, .fa-linkedin, .fa-envelope-open, .fa-phone-square {
+    padding: 5px;
+    font-size: 40px;
+}
 
 
 /* media queries  */
