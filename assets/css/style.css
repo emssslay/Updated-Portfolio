@@ -1,3 +1,4 @@
+/* name at the top  */
 .brand-logo {
     top: 26px;
     left: 250px;
@@ -5,43 +6,45 @@
     font-size: 50px;
     overflow: auto;
     color: #dce2e1 !important;
-    text-shadow: 2px 2px #858585;
+    text-shadow: 1.8px 1.8px #858585;
 
 }
 
+/* text of carousel and phone  */
 .container {
-    color: #e5ebea;
+    color: #dce2e1;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
 }
 
+/* header and footer  */
 .nav-wrapper,
 .page-footer {
     background-color: #5ba1b0;
     color: #dce2e1;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 24px;
-    text-shadow: 1px 1px #858585;
+    text-shadow: .9px .9px #858585;
 }
 
-.nav-wrapper {
-    position: fixed;
-}
-
+/* carousel with projects */
 #carousel-section {
     background-color: #5ba1b0;
 }
 
+/* bottom bottom footer */
 .footer-copyright {
     background-color: #5ba1b0;
 }
 
+/* all links  */
 a {
     color: #dce2e1;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 18px;
 }
 
+/* about me section  */
 .card {
     background-color: #5ba1b0;
     color: #dce2e1;
@@ -52,19 +55,23 @@ a {
     text-align: center;
 }
 
+/* title of about me  */
 .card-title {
     font-size: 22px;
 }
 
+/* project title  */
 h2 {
     margin-top: -5px;
 }
 
+/* container for about me  */
 .about-me {
     background-color: #dce2e1;
     margin-bottom: -20px;
 }
 
+/* picture of me */
 .selfie {
     border-radius: 50%;
     max-width: 13%;
@@ -78,32 +85,37 @@ h2 {
     color: #c7cdcc;
 }
 
+/* container for connect area  */
 .parallax-container {
     height: 170px;
     background-color: #dce2e1;
 }
 
+/* styling for connect text */
 .contact-info {
     text-align: center;
     padding: 10px 0px 0px 0px;
     color: #5ba1b0;
     font-family: 'Merriweather Sans', sans-serif;
     background-color: #dce2e1;
-    text-shadow: .9px .9px #858585;
+    text-shadow: .8px .8px #858585;
 }
 
+/* connect heading size */
 .contact-head {
     font-size: 30px
 }
 
+/* icon styling  */
 .fa-github, .fa-linkedin, .fa-envelope-open, .fa-phone-square {
     padding: 5px;
     font-size: 40px;
     color: #5ba1b0;
 }
 
-.connectLinks:hover {
-    color: #c7cdcc;
+/* icon hover */
+.fa-github:hover, .fa-linkedin:hover, .fa-envelope-open:hover, .fa-phone-square:hover {
+    color: #4a8491;
 }
 
 /* media queries  */
