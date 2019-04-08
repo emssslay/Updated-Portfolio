@@ -82,6 +82,7 @@ h2 {
 
 .parallax-container {
     height: 170px;
+    background-color: #dce2e1;
 }
 
 .contact-info {
@@ -89,6 +90,7 @@ h2 {
     padding: 10px 0px 0px 0px;
     color: #5ba1b0;
     font-family: 'Merriweather Sans', sans-serif;
+    background-color: #dce2e1;
 
 }
 
@@ -99,12 +101,13 @@ h2 {
 .fa-github, .fa-linkedin, .fa-envelope-open, .fa-phone-square {
     padding: 5px;
     font-size: 40px;
+    color: #5ba1b0;
+
 }
 
 .connectLinks:hover {
     color: #c7cdcc;
 }
-
 
 /* media queries  */
 
