@@ -1,57 +1,77 @@
 /* name at the top  */
 .brand-logo {
-    top: 26px;
-    left: 250px;
+    position: relative;
+    top: 220px;
+    left: 330px;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 50px;
     overflow: auto;
-    color: #dce2e1 !important;
-    text-shadow: 1.8px 1.8px #858585;
+    color: white !important;
+    /* text-shadow: 1.8px 1.8px #858585; */
+}
 
+.my-title {
+    position: relative;
+    top: 260px;
+    left: 330px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    overflow: auto;
+    color: white !important;
 }
 
 /* text of carousel and phone  */
 .container {
-    color: #dce2e1;
+    color: white;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
 }
 
+/* header */
+nav.nav-extended .nav-wrapper {
+    min-height: 600px;
+}
 /* header and footer  */
 .nav-wrapper,
 .page-footer {
-    background-color: #5ba1b0;
-    color: #dce2e1;
+    background-color: #ee6e73;
+    color: white;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 24px;
-    text-shadow: .9px .9px #858585;
+    /* text-shadow: .9px .9px #858585; */
+}
+
+/* footer */
+#footer {
+    min-height: 70px;
 }
 
 /* carousel with projects */
 #carousel-section {
-    background-color: #5ba1b0;
+    background-color: #ee6e73;
 }
 
 /* bottom bottom footer */
 .footer-copyright {
-    background-color: #5ba1b0;
+    background-color: #ee6e73;
 }
 
 /* all links  */
 a {
-    color: #dce2e1;
+    color: white;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 18px;
 }
 
 /* about me section  */
 .card {
-    background-color: #5ba1b0;
-    color: #dce2e1;
+    background-color: #ee6e73;
+    color: white;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
     top: 25px;
-    padding: 10px;
+    padding: 30px;
+    margin: 30px;
     text-align: center;
 }
 
@@ -67,38 +87,38 @@ h2 {
 
 /* container for about me  */
 .about-me {
-    background-color: #dce2e1;
+    background-color: white;
     margin-bottom: -20px;
 }
 
 /* picture of me */
 .selfie {
-    border-radius: 50%;
-    max-width: 13%;
-    max-height: 13%;
+    border-radius: 30%;
+    max-width: 45%;
+    max-height: 45%;
     position: relative;
-    left: 460px;
-    top: 12px;
+    left: 60px;
+    top: 65px;
 }
 
 .repoLinks:hover {
-    color: #c7cdcc;
+    color: white;
 }
 
 /* container for connect area  */
 .parallax-container {
-    height: 170px;
-    background-color: #dce2e1;
+    height: 200px;
+    background-color: white;
 }
 
 /* styling for connect text */
 .contact-info {
     text-align: center;
-    padding: 10px 0px 0px 0px;
-    color: #5ba1b0;
+    padding: 20px 0px 0px 0px;
+    color: #ee6e73;
     font-family: 'Merriweather Sans', sans-serif;
-    background-color: #dce2e1;
-    text-shadow: .8px .8px #858585;
+    background-color: white;
+    /* text-shadow: .8px .8px #858585; */
 }
 
 /* connect heading size */
@@ -110,12 +130,12 @@ h2 {
 .fa-github, .fa-linkedin, .fa-envelope-open, .fa-phone-square {
     padding: 5px;
     font-size: 40px;
-    color: #5ba1b0;
+    color: #ee6e73;
 }
 
 /* icon hover */
 .fa-github:hover, .fa-linkedin:hover, .fa-envelope-open:hover, .fa-phone-square:hover {
-    color: #4a8491;
+    color: #ee6e73;
 }
 
 /* media queries  */
@@ -126,6 +146,23 @@ h2 {
     }
     .carousel-item {
         padding: 0px 10px;
+    }
+    .selfie {
+        position: relative;
+        left: 20px;
+        top: 65px;
+        max-width: 20%;
+        max-height: 20%;
+    }
+    .brand-logo {
+        position: relative;
+        top: 200px;
+        left: -30px;   
+    }
+    .my-title {
+        position: relative;
+        top: 240px;
+        left: -1430px;
     }
 }
 
@@ -151,96 +188,232 @@ h2 {
 
 @media only screen and (min-width: 0px) and (max-width: 380px) {
     .selfie {
-        left: 260px;
-        top: 20px;
-        max-width: 20%;
-        max-height: 20%;
+        position: relative;
+        left: 70px;
+        top: 235px;
+        max-width: 60%;
+        max-height: 60%;
     }
     .brand-logo {
-        left: 40% !important;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        text-align: center;
+    }
+    .my-title {
+        position: relative;
+        top: 160px;
+        left: 50px;
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 381px) and (max-width: 450px) {
     .selfie {
-        left: 285px;
-        top: 18px;
-        max-width: 20%;
-        max-height: 20%;
+        position: relative;
+        left: 70px;
+        top: 235px;
+        max-width: 60%;
+        max-height: 60%;
     }
     .brand-logo {
-        left: 40% !important;
+        position: relative;
+        top: 70px;
+        left: 70px;
+        text-align: center;
+    }
+    .my-title {
+        position: relative;
+        top: 160px;
+        left: 70px;
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 451px) and (max-width: 502px) {
     .selfie {
-        left: 320px;
-        top: 20px;
-        max-width: 17%;
-        max-height: 17%;
+        position: relative;
+        left: 70px;
+        top: 235px;
+        max-width: 60%;
+        max-height: 60%;
     }
     .brand-logo {
-        left: 40% !important;
+        position: relative;
+        top: 70px;
+        left: 70px;
+        text-align: center;
+    }
+    .my-title {
+        position: relative;
+        top: 150px;
+        left: 70px;
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 503px) and (max-width: 550px) {
     .selfie {
-        left: 330px;
-        top: 20px;
-        max-width: 16%;
-        max-height: 16%;
+        position: relative;
+        left: 100px;
+        top: 200px;
+        max-width: 60%;
+        max-height: 60%;
     }
     .brand-logo {
-        left: 40% !important;
+        position: relative;
+        top: 70px;
+        left: 70px;
+        text-align: center;
+    }
+    .my-title {
+        position: relative;
+        top: 150px;
+        left: 130px;
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 551px) and (max-width: 700px) {
     .selfie {
-        left: 400px;
-        top: 15px;
-        max-width: 14%;
-        max-height: 14%;
+        position: relative;
+        left: 150px;
+        top: 200px;
+        max-width: 50%;
+        max-height: 50%;
     }
     .brand-logo {
-        left: 40% !important;
+        position: relative;
+        top: 70px;
+        left: 70px;
+        text-align: center;
+    }
+    .my-title {
+        position: relative;
+        top: 115px;
+        left: 155px;
+        text-align: center;
     }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 767px) {
+@media only screen and (min-width: 701px) and (max-width: 900px) {
     .selfie {
-        left: 420px;
-        top: 15px;
-        max-width: 14%;
-        max-height: 14%;
+        position: relative;
+        left: 210px;
+        top: 180px;
+        max-width: 40%;
+        max-height: 40%;
     }
     .brand-logo {
-        left: 40% !important;
+        position: relative;
+        top: 80px;
+        left: 70px;
+        text-align: center;
+    }
+    .my-title {
+        position: relative;
+        top: 130px;
+        left: 300px;
+        text-align: center;
     }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 800px) {
+@media only screen and (min-width: 900px) and (max-width: 1154px) {
     .selfie {
-        left: 450px;
-        top: 15px;
-        max-width: 14%;
-        max-height: 14%;
+        position: relative;
+        left: 200px;
+        top: 180px;
+        max-width: 35%;
+        max-height: 35%;
     }
     .brand-logo {
-        left: 40% !important;
+        position: relative;
+        top: 90px;
+        left: 330px;   
+    }
+    .my-title {
+        position: relative;
+        top: 130px;
+        left: 330px;
     }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 913px) {
+@media only screen and (min-width: 1154px) and (max-width: 1234px) {
     .selfie {
-        left: 450px;
-        top: 15px;
-        max-width: 13%;
-        max-height: 13%;
+        position: relative;
+        left: 250px;
+        top: 65px;
+        max-width: 35%;
+        max-height: 35%;
     }
     .brand-logo {
-        left: 40% !important;
+        position: relative;
+        top: 200px;
+        left: 330px;   
+    }
+    .my-title {
+        position: relative;
+        top: 240px;
+        left: 330px;
+    }
+}
+
+@media only screen and (min-width: 1234px) and (max-width: 1350px) {
+    .selfie {
+        position: relative;
+        left: 180px;
+        top: 65px;
+        max-width: 40%;
+        max-height: 40%;
+    }
+    .brand-logo {
+        position: relative;
+        top: 200px;
+        left: 330px;    
+    }
+    .my-title {
+        position: relative;
+        top: 240px;
+        left: 330px;    
+    }
+}
+
+@media only screen and (min-width: 1450px) and (max-width: 1640px) {
+    .selfie {
+        position: relative;
+        left: 100px;
+        top: 65px;
+        max-width: 45%;
+        max-height: 45%;
+    }
+    .brand-logo {
+        position: relative;
+        top: 200px;
+        left: 350px;    
+    }
+    .my-title {
+        position: relative;
+        top: 240px;
+        left: 350px;    
+    }
+}
+
+@media only screen and (min-width: 1640px) and (max-width: 2318px) {
+    .selfie {
+        position: relative;
+        left: 0px;
+        top: 65px;
+        max-width: 45%;
+        max-height: 45%;
+    }
+    .brand-logo {
+        position: relative;
+        top: 200px;
+        left: 550px;    
+    }
+    .my-title {
+        position: relative;
+        top: 240px;
+        left: 550px;    
     }
 }
